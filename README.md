@@ -1,59 +1,128 @@
-# NutriMate - Personalized Nutrition & Exercise Guidance App
+   # Bangkit 2024 Capstone Project [C24-PS556] : NutriMate
 
-NutriMate is a mobile application designed to empower users to achieve their health goals through tailored nutrition and exercise recommendations. By leveraging advanced machine learning algorithms, the app provides personalized meal plans, workout routines, and progress tracking to encourage sustainable lifestyle changes. The app particularly focuses on addressing the health needs of vulnerable communities by making personalized health resources accessible and actionable.
 
----
-
-## Features
-
-- **Personalized Meal Recommendations**  
-  Get daily meal plans tailored to your dietary preferences, health conditions, and nutritional goals.
-
-- **Ingredient Recognition**  
-  Use image recognition to identify food ingredients and generate recipe ideas based on what you have at home.
-
-- **Exercise Recommendations**  
-  Receive workout routines customized to your fitness level and goals.
-
-- **Progress Tracking**  
-  Monitor your progress towards your health and fitness objectives with detailed analytics.
-
-- **User-Friendly Interface**  
-  Intuitive and accessible design to ensure usability for a wide range of users.
+Hello everyone! This is the repository for our Bangkit 2024 Capstone project. Our team consists of 3 Machine Learning Engineers, 2 Cloud Computing Specialists, and 1 Mobile Developer.
 
 ---
 
-## Technology Stack
+## Team
 
-- **Mobile Development**:  
-  - Kotlin, Jetpack Compose, Android Studio
-  - Room Database for local storage  
-  - Retrofit for API integration  
-
-- **Backend**:  
-  - Firebase Authentication & Firestore  
-  - Node.js with Express.js for custom APIs  
-
-- **Machine Learning**:  
-  - TensorFlow/Keras, PyTorch for model development  
-  - TensorFlow Lite (TFLite) for mobile integration  
-
-- **Cloud Infrastructure**:  
-  - Firebase for hosting and cloud storage  
-  - Google Cloud Vision API for image recognition  
+Here is the list of members of the C24-PS556 team:
+|            Name           | Bangkit ID       |   Learning Path    |                        LinkedIn                         |
+|---------------------------|------------------|--------------------|--------------------------------------------------------|
+| Muhammad Syifa Ridhoni    | M279B4KY3101     | Machine Learning   | https://www.linkedin.com/in/muhammadsyifa             |
+| Muhammad Imam Wahid       | M279B4KY2907     | Machine Learning   | https://www.linkedin.com/in/muhammadimwahid           |
+| Silvana Ovarista          | M279B4KX4151     | Machine Learning   | https://www.linkedin.com/in/silvanaovarista           |
+| Tanaya Fadillah           | C279B4KX4288     | Cloud Computing    | https://www.linkedin.com/in/tanayafadillah            |
+| Rizky Puspita Safitri     | C279B4KX3937     | Cloud Computing    | https://www.linkedin.com/in/rizkypuspitaf             |
+| Satria Cahya Ramadhan     | A279B4KY4077     | Mobile Development | https://www.linkedin.com/in/satriacahya               |
 
 ---
 
-## Installation and Setup
+## Abstract
 
-### Prerequisites
-- Android Studio installed on your system
-- Firebase project configured (refer to `firebase-config.json`)
-- Node.js and npm installed for backend setup
+NutriMate is a mobile application designed to empower users to achieve their health goals through tailored nutrition and exercise recommendations. By leveraging advanced machine learning algorithms, the app provides personalized meal plans, workout routines, and progress tracking to encourage sustainable lifestyle changes. NutriMate aims to address the health needs of vulnerable communities, making personalized health guidance more accessible and impactful.
 
-### Steps to Run the Project
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/NutriMate.git
-   cd NutriMate
+Key features of NutriMate include:
+- Personalized meal planning based on dietary preferences and health conditions.
+- Image recognition to identify ingredients and generate recipes.
+- Exercise recommendations tailored to user fitness levels and goals.
+- Progress tracking with detailed analytics.
+
+---
+
+## Project Schedule
+
+The following is the project schedule for developing the NutriMate application:
+
+<img width="695" alt="project timeline" src="https://github.com/user-attachments/assets/51197913-9796-4c38-bf1f-45a7b7c19daf" />
+
+---
+
+## Cloud Architecture Design
+
+The cloud architecture used to support the NutriMate application is outlined below:
+
+
+---
+
+## Tools
+
+|            Tool            | Usage                                         | Link                                              |
+|----------------------------|-----------------------------------------------|--------------------------------------------------|
+| Figma                      | UI/UX design and prototyping                 | https://www.figma.com/                           |
+| Android Studio             | Mobile app development IDE                   | https://developer.android.com/studio            |
+| Google Cloud Platform      | Cloud services for backend and deployment    | https://cloud.google.com                         |
+| Postman                    | Testing APIs                                  | https://www.postman.com/                         |
+| Firebase                   | Authentication and database                  | https://firebase.google.com                      |
+| TensorFlow/Keras           | Machine learning model development           | https://www.tensorflow.org/                      |
+| PyTorch                    | Machine learning model development           | https://pytorch.org/                             |
+| Notion                     | Project management                           | https://www.notion.so/                           |
+
+---
+
+## Languages
+
+| Language                  | Usage                             | Documentation                                     |
+|---------------------------|------------------------------------|--------------------------------------------------|
+| Python                    | Machine learning models           | https://www.python.org/                          |
+| Kotlin                    | Mobile app development            | https://kotlinlang.org/docs/home.html            |
+| JavaScript (Node.js)      | Backend API development           | https://nodejs.org/en/docs/                      |
+
+---
+
+## Frameworks
+
+| Framework                 | Usage                             | Documentation                                     |
+|---------------------------|------------------------------------|--------------------------------------------------|
+| FastAPI                   | Machine learning API development  | https://fastapi.tiangolo.com/                    |
+| Express.js                | Backend API development           | https://expressjs.com/en/5x/api.html             |
+
+---
+
+## Libraries
+
+### Machine Learning
+- **TensorFlow/Keras**: Sequential, Dense, Dropout, TFLiteConverter.
+- **Scikit-learn**: StandardScaler, train_test_split, evaluation metrics.
+- **Pandas**: Data preprocessing and analysis.
+
+### Mobile Development
+- **ViewModel & LiveData**: Manage app state and lifecycle.
+- **Retrofit & OkHttp**: Handle API requests.
+- **Glide**: Load and cache images.
+- **MVVM Architecture**: Ensure modularity and clean code.
+
+---
+
+## Services
+
+| Service                   | Usage                             |
+|---------------------------|------------------------------------|
+| Google App Engine         | Backend deployment                |
+| Cloud Firestore           | Real-time database                |
+| Cloud Storage             | Image storage                     |
+| Cloud Run                 | Deployment of ML models           |
+
+---
+
+## Application
+
+Download the latest version of NutriMate:  
+**[NutriMate v1.0.0 APK]**
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Acknowledgments
+
+- Bangkit 2024 Program for their support and guidance.
+- Open-source contributors for datasets and tools.
+- Firebase and Google Cloud for providing infrastructure solutions.
+
