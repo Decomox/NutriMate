@@ -82,25 +82,10 @@ The cloud architecture used to support the NutriMate application is outlined bel
 ---
 
 ## Libraries
-- Postman
-- NodeJs
-- ExpressJs
-- Firebase
-- TensorFlow
-- Pytorch
-- Scikit-Learn
-- Keras
-- NumPy
-- Pandas
-- Figma
-- Android Studio
-- Glide
-- Retrofit
-- Room Database
-- Postman
-- Firebase SDK
-- Gson
-- MPAndroidChart
+- **Postman**: Testing APIs and analyzing HTTP requests like GET, POST, PUT, DELETE.
+- **NodeJs**: Backend application development with JavaScript.
+- **ExpressJs**: Building APIs.
+- **Firebase**: Authentication, real-time database, cloud storage, and hosting.
 
 ### Machine Learning
 - **TensorFlow/Keras**: Sequential, Dense, Dropout, TFLiteConverter.
