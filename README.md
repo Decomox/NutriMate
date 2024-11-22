@@ -12,7 +12,7 @@ Here is the list of members of the C24-PS556 team:
 |---------------------------|------------------|--------------------|--------------------------------------------------------|
 | Muhammad Syifa Ridhoni    | M279B4KY3101     | Machine Learning   | https://www.linkedin.com/in/muhammadsyifa             |
 | Muhammad Imam Wahid       | M279B4KY2907     | Machine Learning   | https://www.linkedin.com/in/muhammadimwahid           |
-| Silvana Ovarista          | M279B4KX4151     | Machine Learning   | https://www.linkedin.com/in/silvanaovarista           |
+| Silvana Ovarista          | M279B4KX4151     | Machine Learning   | https://www.linkedin.com/in/silvana-ovarista-97a0aa286/           |
 | Tanaya Fadillah           | C279B4KX4288     | Cloud Computing    | https://www.linkedin.com/in/tanayafadillah            |
 | Rizky Puspita Safitri     | C279B4KX3937     | Cloud Computing    | https://www.linkedin.com/in/rizkypuspitaf             |
 | Satria Cahya Ramadhan     | A279B4KY4077     | Mobile Development | https://www.linkedin.com/in/satriacahya               |
