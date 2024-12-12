@@ -45,12 +45,11 @@ The following is the project schedule for developing the NutriMate application:
 The cloud architecture used to support the NutriMate application is outlined below:
 <img width="695" alt="project timeline" src="https://drive.google.com/uc?export=view&id=1G2PhUASPnIavJ1Qn1cvr2nkQ8oo8QkLI" />
 
-https://drive.google.com/uc?export=view&id=1G2PhUASPnIavJ1Qn1cvr2nkQ8oo8QkLI
-
 ---
 ## ERD Nutrimate
 
 The ERD used to support the NutriMate application database is described below: 
+<img width="695" alt="project timeline" src="https://drive.google.com/uc?export=view&id=1yWc-ng4OFrfPxwt0UaE3n8mvXP20EabT" />
 
 ---
 
@@ -127,7 +126,7 @@ API Documentation Endpoint :
 
 | Service                   | Usage                             |
 |---------------------------|-----------------------------------|
-| Google Compute Engine     | Backend deployment                |
+| Cloud Run                 | Backend deployment                |
 | Cloud Firestore           | Real-time database                |
 | Cloud Storage             | Image storage                     |
 | Cloud Run                 | Deployment of ML models           |
