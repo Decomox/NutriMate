@@ -46,6 +46,11 @@ The cloud architecture used to support the NutriMate application is outlined bel
 
 
 ---
+## ERD Nutrimate
+
+The ERD used to support the NutriMate application database is described below: 
+
+---
 
 ## Tools
 
@@ -74,10 +79,10 @@ The cloud architecture used to support the NutriMate application is outlined bel
 
 ## Frameworks
 
-| Framework                 | Usage                             | Documentation                                     |
-|---------------------------|------------------------------------|--------------------------------------------------|
+| Framework                 | Usage                             | Documentation                                    |
+|---------------------------|-----------------------------------|--------------------------------------------------|
 | FastAPI                   | Machine learning API development  | https://fastapi.tiangolo.com/                    |
-| Express.js                | Backend API development           | https://expressjs.com/en/5x/api.html             |
+| Hapi.js                   | Backend API development           | https://hapi.dev/                                |
 
 ---
 
@@ -97,7 +102,7 @@ The cloud architecture used to support the NutriMate application is outlined bel
 ### Cloud Computing
 - **Postman**: Testing APIs and analyzing HTTP requests like GET, POST, PUT, DELETE.
 - **NodeJs**: Backend application development with JavaScript.
-- **ExpressJs**: Building APIs.
+- **HapiJs**: Building APIs.
 - **Firebase**: Authentication, real-time database, cloud storage, and hosting.
 
 ---
