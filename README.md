@@ -52,6 +52,17 @@ The ERD used to support the NutriMate application database is described below:
 
 ---
 
+## Dataset
+
+---
+
+## API Documentations
+
+---
+
+## UI/UX Design
+
+---
 ## Tools
 
 |            Tool            | Usage                                         | Link                                              |
