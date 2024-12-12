@@ -1,14 +1,12 @@
 const { server, Server } = require('@hapi/hapi');
 const handlers = require('../server/handler');
-const inferenceService = require('../service/inferenceService'); // Pastikan Anda mengimpor inferenceService dengan benar
+const inferenceService = require('../service/inferenceService'); 
 
-// Fungsi untuk mengatur diet type aktif (pindahkan atau impor ke sini)
 const setActiveDietType = (server, dietType) => {
     server.app.currentDietType = dietType;
     console.log(`[INFO] Current diet type set to: ${dietType}`);
 };
 
-// Utility function untuk menghindari duplikasi kode
 const handleDietType = (dietType) => {
   return async (req, h) => {
     setActiveDietType(req.server, dietType);
