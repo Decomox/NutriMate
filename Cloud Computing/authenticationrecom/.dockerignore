@@ -1,0 +1,31 @@
+# Jangan salin node_modules karena akan diinstall di dalam container
+node_modules
+
+# Jangan salin file log
+*.log
+
+# Jangan salin file sementara atau backup editor
+*.tmp
+*.swp
+
+# Jangan salin file konfigurasi .env yang berisi kredensial dan konfigurasi
+.env
+
+# Jangan salin file Dockerfile dan .dockerignore
+Dockerfile
+.dockerignore
+
+# Jangan salin direktori build atau dist jika ada
+build
+dist
+
+# Jangan salin file yang tidak diperlukan seperti file markdown atau dokumentasi
+*.md
+*.yml
+
+# Jangan salin file lock dari npm, karena dapat dipasang ulang pada waktu build
+package-lock.json
+
+# Jangan salin file konfigurasi IDE seperti .vscode atau .idea
+.vscode
+.idea
