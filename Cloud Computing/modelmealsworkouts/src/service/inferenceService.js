@@ -3,7 +3,6 @@ const admin = require('firebase-admin');
 const tf = require('@tensorflow/tfjs-node');
 const InputError = require('../exceptions/InputError');
 
-// Pastikan Firebase sudah diinisialisasi sebelumnya
 if (admin.apps.length === 0) {
     admin.initializeApp({
         credential: admin.credential.applicationDefault(),
@@ -36,7 +35,7 @@ async function predictClassification(model, image) {
     }
 }
 
-let currentDietType = null; // Variabel global untuk menyimpan dietType yang aktif
+let currentDietType = null; 
 
 const setDietType = (dietType) => {
     currentDietType = dietType; // Set dietType yang aktif
@@ -59,10 +58,8 @@ const getMeals = async (dietType = currentDietType, selectedIngredients = []) =>
             return [];
         }
 
-        // Normalisasi input selectedIngredients ke huruf kecil
         const normalizedSelectedIngredients = selectedIngredients.map(ingredient => ingredient.toLowerCase());
 
-        // Filter meals berdasarkan dietType dan bahan yang sesuai
         const filteredMeals = Object.keys(mealsData)
             .map(key => mealsData[key])
             .filter(meal =>
@@ -100,7 +97,6 @@ const getWorkouts = async (dietType = null) => {
             return [];
         }
 
-        // Filter data workouts berdasarkan type_diet
         const filteredWorkouts = Object.keys(workoutsData)
             .map(key => workoutsData[key])
             .filter(workout => workout.diet_type && workout.diet_type.toLowerCase() === dietType.toLowerCase()); // Filter berdasarkan diet_type
