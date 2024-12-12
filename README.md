@@ -44,7 +44,7 @@ The following is the project schedule for developing the NutriMate application:
 
 The cloud architecture used to support the NutriMate application is outlined below:
 <img width="695" alt="project timeline" src="https://drive.google.com/file/d/1G2PhUASPnIavJ1Qn1cvr2nkQ8oo8QkLI/view?usp=sharing" />
-
+https://drive.google.com/uc?export=view&id=1G2PhUASPnIavJ1Qn1cvr2nkQ8oo8QkLI
 
 ---
 ## ERD Nutrimate
