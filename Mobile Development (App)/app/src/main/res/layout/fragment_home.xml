@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="100dp"
+    tools:context=".fragment.HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/breakfast"
+            android:layout_width="352dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/breakfast"
+            android:src="@drawable/breakfast"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.481"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tipetubuh" />
+
+        <ImageView
+            android:id="@+id/lunch"
+            android:layout_width="352dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/breakfast"
+            app:layout_constraintHorizontal_bias="0.935"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/breakfast"
+            android:src="@drawable/lunch"
+            android:contentDescription="@string/lunch"/>
+
+        <ImageView
+            android:id="@+id/dinner"
+            android:layout_width="352dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/dinner"
+            android:src="@drawable/dinner"
+            app:layout_constraintEnd_toEndOf="@+id/lunch"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/lunch"
+            app:layout_constraintTop_toBottomOf="@+id/lunch" />
+
+        <ImageView
+            android:id="@+id/olahraga"
+            android:layout_width="352dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/olahraga"
+            android:src="@drawable/olahraga"
+            app:layout_constraintEnd_toEndOf="@+id/dinner"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/dinner"
+            app:layout_constraintTop_toBottomOf="@+id/dinner" />
+
+        <TextView
+            android:id="@+id/tipetubuh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/tipe"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/ubahModeButton"
+            android:layout_width="170dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/red"
+            android:textColor="@color/black"
+            android:text="@string/ubah"
+            app:layout_constraintEnd_toEndOf="@+id/olahraga"
+            app:layout_constraintStart_toStartOf="@+id/olahraga"
+            app:layout_constraintTop_toBottomOf="@+id/olahraga" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
