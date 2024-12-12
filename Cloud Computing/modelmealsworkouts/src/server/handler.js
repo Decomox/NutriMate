@@ -56,8 +56,6 @@ const postPredictHandler = async (request, h) => {
     }
 };
 
-
-// General handler for diet data (meals and workouts)
 const handleDietWithWorkouts = async (req, h, dietType) => {
     try {
         console.log(`[INFO] Fetching data for dietType: ${dietType}`);
@@ -87,7 +85,6 @@ const handleDietWithWorkouts = async (req, h, dietType) => {
     }
 };
 
-// General handler for meals or workouts only
 const handleMealsOrWorkouts = async (req, h, dietType, dataType) => {
     try {
         console.log(`[INFO] Fetching ${dataType} for dietType: ${dietType}`);
@@ -116,12 +113,10 @@ const handleMealsOrWorkouts = async (req, h, dietType, dataType) => {
     }
 };
 
-// Handlers for specific diet types (meals and workouts)
 const handleCutting = (req, h) => handleDietWithWorkouts(req, h, 'Cutting');
 const handleBulking = (req, h) => handleDietWithWorkouts(req, h, 'Bulking');
 const handleMaintaining = (req, h) => handleDietWithWorkouts(req, h, 'Maintaining');
 
-// Handlers for specific data types (meals or workouts)
 const handleMealsByType = (req, h) => {
     const { dietType } = req.params;
     return handleMealsOrWorkouts(req, h, dietType, 'meals');
