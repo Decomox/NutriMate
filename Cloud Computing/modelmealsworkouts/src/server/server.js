@@ -2,16 +2,14 @@ require('dotenv').config();
 
 const Hapi = require('@hapi/hapi');
 const routes = require('../server/routes');
-const loadModel = require('../service/loadModel'); // Impor fungsi loadModel
+const loadModel = require('../service/loadModel'); 
 const InputError = require('../exceptions/InputError');
 
-// Fungsi untuk mengatur diet type aktif
 const setActiveDietType = (server, dietType) => {
     server.app.currentDietType = dietType;
     console.log(`[INFO] Current diet type set to: ${dietType}`);
 };
 
-// Penanganan error global
 process.on('unhandledRejection', (reason) => {
     console.error('Unhandled Rejection:', reason);
 });
@@ -21,7 +19,6 @@ process.on('uncaughtException', (error) => {
 });
 
 (async () => {
-    // Membuat instance server
     const server = Hapi.server({
         port: 3000,
         host: '0.0.0.0',
@@ -30,7 +27,6 @@ process.on('uncaughtException', (error) => {
         },
     });
 
-    // Memuat model
     try {
         const model = await loadModel();
         server.app.model = model;
@@ -39,7 +35,6 @@ process.on('uncaughtException', (error) => {
         process.exit(1); // Keluar jika model gagal dimuat
     }
 
-    // Mendefinisikan route untuk server
     server.route(routes.map((route) => {
         if (route.path === '/api/cutting') {
             return {
@@ -71,7 +66,6 @@ process.on('uncaughtException', (error) => {
         return route;
     }));
 
-    // Global error handling
     server.ext('onPreResponse', (request, h) => {
         const response = request.response;
 
@@ -96,7 +90,6 @@ process.on('uncaughtException', (error) => {
         return h.continue;
     });
 
-    // Menjalankan server
     try {
         await server.start();
         console.log(`Server running on ${server.info.uri}`);
