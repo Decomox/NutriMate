@@ -55,7 +55,7 @@ The ERD used to support the NutriMate application database is described below:
 
 ## Dataset
 
-Dataset Links of This Project : 
+Dataset Links of This Project : [Dataset](https://universe.roboflow.com/seongmin/food-ingredients-pnisb/dataset/1)
 
 ---
 
