@@ -62,6 +62,10 @@ Dataset Links of This Project : [Dataset](https://universe.roboflow.com/seongmin
 ## API Documentations
 API Documentation Endpoint : [Endpoint](https://documenter.getpostman.com/view/39544327/2sAYHxmigA)
 
+## Calculate the costs Google Cloud Platforms
+<img width="695" alt="project timeline" src="https://drive.google.com/uc?export=view&id=1FEJql9JlUNHL4aCXpL4PYJFKCNDdb2mK" />
+Calculate all cost : https://drive.google.com/file/d/1LJ_P4k9a0tvleSV96TFnS5NBh273nSWl/view?usp=sharing
+
 ## UI/UX Design
 UI/UX Design link : [UI/UX](https://www.figma.com/design/ZIWJo6QkEos3fhHGqXE6rG/Selang?node-id=26-4&t=xtMF3rMrPrVnPcdZ-1)
 
