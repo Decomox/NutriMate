@@ -60,9 +60,7 @@ Dataset Links of This Project :
 ---
 
 ## API Documentations
-API Documentation Endpoint :[Endpoint]
-
----
+API Documentation Endpoint : [Endpoint](https://documenter.getpostman.com/view/39544327/2sAYHxmigA)
 
 ## UI/UX Design
 
