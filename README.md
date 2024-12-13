@@ -63,6 +63,7 @@ Dataset Links of This Project : [Dataset](https://universe.roboflow.com/seongmin
 API Documentation Endpoint : [Endpoint](https://documenter.getpostman.com/view/39544327/2sAYHxmigA)
 
 ## UI/UX Design
+UI/UX Design link : [UI/UX](https://www.figma.com/design/ZIWJo6QkEos3fhHGqXE6rG/Selang?node-id=26-4&t=xtMF3rMrPrVnPcdZ-1)
 
 ---
 ## Tools
