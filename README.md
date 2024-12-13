@@ -62,7 +62,7 @@ Dataset Links of This Project :
 ## API Documentations
 API Documentation Endpoint :
 
-<a alt="Endpoint" src="https://documenter.getpostman.com/view/39544327/2sAYHxmigA"></a>
+<a src="https://documenter.getpostman.com/view/39544327/2sAYHxmigA" alt="Endpoint"></a>
 
 ---
 
